@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarita Snacks - Menu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">Sarita Snacks</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#" class="active">Menu</a>
+      <a href="#">Order</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Our Menu</h1>
+    <p class="subtitle">Authentic Mauritian food — Grand Sable</p>
+
+    <div class="filter-tabs">
+      <button class="tab active" data-category="all">All</button>
+      <button class="tab" data-category="mains">Mains</button>
+      <button class="tab" data-category="snacks">Snacks</button>
+      <button class="tab" data-category="sweets">Sweets</button>
+      <button class="tab" data-category="drinks">Drinks</button>
+    </div>
+
+    <div id="menu-grid" class="menu-grid"></div>
+  </main>
+
+  <footer class="footer">
+    <p>Sarita Snacks · Grand Sable · Open 9am–8pm (Closed Sunday)</p>
+    <p>Order by phone: 4177880 / 58086153 / 58545843</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
